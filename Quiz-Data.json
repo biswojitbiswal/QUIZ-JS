@@ -1,0 +1,502 @@
+
+{
+    "quiz": [
+      { 
+        "category": "History",
+        "image": "./Images/History.jpg",
+        "questions": [
+          {
+            "type": "MCQ",
+            "question": "Who was the first emperor of the Roman Empire?",
+            "options": ["Julius Caesar", "Augustus", "Nero", "Constantine"],
+            "answer": "Augustus"
+          },
+          {
+            "type": "MCQ",
+            "question": "In which year did the American Civil War begin?",
+            "options": ["1861", "1776", "1800", "1865"],
+            "answer": "1861"
+          },
+          {
+            "type": "TEXT",
+            "question": "Who led the Soviet Union during World War II?",
+            "answer": "Joseph Stalin"
+          },
+          {
+            "type": "MCQ",
+            "question": "What was the primary cause of the French Revolution?",
+            "options": ["Economic crisis", "Religious conflict", "Colonial rebellion", "Scientific discovery"],
+            "answer": "Economic crisis"
+          },
+          {
+            "type": "MCQ",
+            "question": "Which empire was known as the 'Empire on which the sun never sets'?",
+            "options": ["Roman Empire", "British Empire", "Ottoman Empire", "Mongol Empire"],
+            "answer": "British Empire"
+          },
+          {
+            "type": "MCQ",
+            "question": "Who was the first President of the United States?",
+            "options": ["Thomas Jefferson", "Abraham Lincoln", "George Washington", "John Adams"],
+            "answer": "George Washington"
+          },
+          {
+            "type": "TEXT",
+            "question": "Which explorer is credited with discovering America in 1492?",
+            "answer": "Christopher Columbus"
+          },
+          {
+            "type": "MCQ",
+            "question": "The Battle of Hastings took place in which year?",
+            "options": ["1066", "1215", "1415", "1666"],
+            "answer": "1066"
+          },
+          {
+            "type": "MCQ",
+            "question": "Who was the queen of ancient Egypt and had relationships with Julius Caesar and Mark Antony?",
+            "options": ["Nefertiti", "Cleopatra", "Hatshepsut", "Nefertari"],
+            "answer": "Cleopatra"
+          },
+          {
+            "type": "NUMBER",
+            "question": "In which year did India gain independence from British rule?",
+            "answer": "1947"
+          }
+        ]
+      },
+      {
+        "category": "Geography",
+        "image": "./Images/Geography.jpg",
+        "questions": [
+          {
+            "type": "MCQ",
+            "question": "Which river is the longest in the world?",
+            "options": ["Nile", "Amazon", "Yangtze", "Mississippi"],
+            "answer": "Nile"
+          },
+          {
+            "type": "TEXT",
+            "question": "What is the smallest country by land area?",
+            "answer": "Vatican City"
+          },
+          {
+            "type": "MCQ",
+            "question": "Which continent is known as the 'Land Down Under'?",
+            "options": ["Africa", "South America", "Australia", "Asia"],
+            "answer": "Australia"
+          },
+          {
+            "type": "MCQ",
+            "question": "The Andes Mountains are primarily located in which continent?",
+            "options": ["Africa", "South America", "Asia", "North America"],
+            "answer": "South America"
+          },
+          {
+            "type": "MCQ",
+            "question": "What is the capital city of Canada?",
+            "options": ["Toronto", "Ottawa", "Vancouver", "Montreal"],
+            "answer": "Ottawa"
+          },
+          {
+            "type": "TEXT",
+            "question": "Which country has the most islands?",
+            "answer": "Sweden"
+          },
+          {
+            "type": "MCQ",
+            "question": "Mount Kilimanjaro is located in which African country?",
+            "options": ["Kenya", "South Africa", "Nigeria", "Tanzania"],
+            "answer": "Tanzania"
+          },
+          {
+            "type": "MCQ",
+            "question": "Which is the largest desert in the world?",
+            "options": ["Sahara", "Arabian", "Gobi", "Antarctic"],
+            "answer": "Antarctic"
+          },
+          {
+            "type": "TEXT",
+            "question": "Which country is known as the Land of the Rising Sun?",
+            "answer": "Japan"
+          },
+          {
+            "type": "MCQ",
+            "question": "Which ocean is the largest by surface area?",
+            "options": ["Indian", "Pacific", "Atlantic", "Southern"],
+            "answer": "Pacific"
+          }
+        ]
+      },
+      {
+        "category": "Math",
+        "image": "./Images/Math.jpg",
+        "questions": [
+          {
+            "type": "MCQ",
+            "question": "What is the value of Pi (π) to two decimal places?",
+            "options": ["3.12", "3.14", "3.16", "3.18"],
+            "answer": "3.14"
+          },
+          {
+            "type": "NUMBER",
+            "question": "What is the square root of 144?",
+            "answer": "12"
+          },
+          {
+            "type": "MCQ",
+            "question": "What is 12% of 200?",
+            "options": ["12", "18", "20", "24"],
+            "answer": "24"
+          },
+          {
+            "type": "MCQ",
+            "question": "What is the result of 15 ÷ 3 + 2 × 4?",
+            "options": ["10", "11", "12", "13"],
+            "answer": "11"
+          },
+          {
+            "type": "NUMBER",
+            "question": "How many degrees are there in a right angle?",
+            "answer": "90"
+          },
+          {
+            "type": "MCQ",
+            "question": "Which number is known as the multiplicative identity?",
+            "options": ["1", "0", "-1", "10"],
+            "answer": "1"
+          },
+          {
+            "type": "MCQ",
+            "question": "What is 25% of 80?",
+            "options": ["10", "15", "20", "25"],
+            "answer": "20"
+          },
+          {
+            "type": "MCQ",
+            "question": "What is the perimeter of a square with side length 6?",
+            "options": ["18", "24", "30", "36"],
+            "answer": "24"
+          },
+          {
+            "type": "NUMBER",
+            "question": "What is the next prime number after 7?",
+            "answer": "11"
+          },
+          {
+            "type": "MCQ",
+            "question": "What is the square of 9?",
+            "options": ["72", "81", "90", "99"],
+            "answer": "81"
+          }
+        ]
+      },
+      {
+        "category": "Science",
+        "image": "./Images/Science.jpg",
+        "questions": [
+          {
+            "type": "MCQ",
+            "question": "What is the chemical symbol for water?",
+            "options": ["O2", "H2O", "CO2", "HO"],
+            "answer": "H2O"
+          },
+          {
+            "type": "TEXT",
+            "question": "What is the powerhouse of the cell?",
+            "answer": "Mitochondria"
+          },
+          {
+            "type": "MCQ",
+            "question": "Which planet is known as the Red Planet?",
+            "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+            "answer": "Mars"
+          },
+          {
+            "type": "MCQ",
+            "question": "What gas do plants absorb from the atmosphere?",
+            "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Methane"],
+            "answer": "Carbon Dioxide"
+          },
+          {
+            "type": "NUMBER",
+            "question": "What is the boiling point of water at sea level in degrees Celsius?",
+            "answer": "100"
+          },
+          {
+            "type": "MCQ",
+            "question": "Which organ in the human body produces insulin?",
+            "options": ["Liver", "Heart", "Pancreas", "Lungs"],
+            "answer": "Pancreas"
+          },
+          {
+            "type": "TEXT",
+            "question": "What is the hardest natural substance on Earth?",
+            "answer": "Diamond"
+          },
+          {
+            "type": "MCQ",
+            "question": "What is the atomic number of hydrogen?",
+            "options": ["1", "2", "3", "4"],
+            "answer": "1"
+          },
+          {
+            "type": "MCQ",
+            "question": "Which part of the plant conducts photosynthesis?",
+            "options": ["Roots", "Stem", "Leaves", "Flower"],
+            "answer": "Leaves"
+          },
+          {
+            "type": "TEXT",
+            "question": "What is the most abundant gas in Earth's atmosphere?",
+            "answer": "Nitrogen"
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "image": "./Images/Technology.jpg",
+        "questions": [
+          {
+            "type": "MCQ",
+            "question": "What does HTML stand for?",
+            "options": ["Hyper Trainer Marking Language", "Hyper Text Marketing Language", "Hyper Text Markup Language", "Hyper Trainer Markup Language"],
+            "answer": "Hyper Text Markup Language"
+          },
+          {
+            "type": "TEXT",
+            "question": "Who is known as the father of computers?",
+            "answer": "Charles Babbage"
+          },
+          {
+            "type": "MCQ",
+            "question": "In computing, what does CPU stand for?",
+            "options": ["Central Processing Unit", "Computer Primary Unit", "Central Primary Unit", "Computer Processing Unit"],
+            "answer": "Central Processing Unit"
+          },
+          {
+            "type": "TEXT",
+            "question": "What is the name of the programming language that is named after a gemstone?",
+            "answer": "Ruby"
+          },
+          {
+            "type": "MCQ",
+            "question": "What does RAM stand for in computer terms?",
+            "options": ["Random Access Memory", "Read Access Memory", "Randomly Accessed Memory", "Readily Available Memory"],
+            "answer": "Random Access Memory"
+          },
+          {
+            "type": "MCQ",
+            "question": "Which company developed the iPhone?",
+            "options": ["Microsoft", "Google", "Apple", "Amazon"],
+            "answer": "Apple"
+          },
+          {
+            "type": "TEXT",
+            "question": "What does HTTP stand for?",
+            "answer": "Hypertext Transfer Protocol"
+          },
+          {
+            "type": "MCQ",
+            "question": "Who invented the World Wide Web?",
+            "options": ["Steve Jobs", "Bill Gates", "Tim Berners-Lee", "Larry Page"],
+            "answer": "Tim Berners-Lee"
+          },
+          {
+            "type": "MCQ",
+            "question": "What was the first programming language ever developed?",
+            "options": ["Fortran", "C", "COBOL", "Assembly"],
+            "answer": "Fortran"
+          },
+          {
+            "type": "TEXT",
+            "question": "Which company created the Windows operating system?",
+            "answer": "Microsoft"
+          }
+        ]
+      },
+      {
+        "category": "Literature",
+        "image": "./Images/Litreture.jpg",
+        "questions": [
+          {
+            "type": "MCQ",
+            "question": "Who wrote 'Romeo and Juliet'?",
+            "options": ["Charles Dickens", "Mark Twain", "William Shakespeare", "Homer"],
+            "answer": "William Shakespeare"
+          },
+          {
+            "type": "TEXT",
+            "question": "In which century was Geoffrey Chaucer's 'The Canterbury Tales' written?",
+            "answer": "14th century"
+          },
+          {
+            "type": "MCQ",
+            "question": "What is the title of the first Harry Potter book?",
+            "options": ["The Sorcerer's Stone", "The Philosopher's Stone", "The Chamber of Secrets", "The Goblet of Fire"],
+            "answer": "The Philosopher's Stone"
+          },
+          {
+            "type": "TEXT",
+            "question": "Who wrote 'Pride and Prejudice'?",
+            "answer": "Jane Austen"
+          },
+          {
+            "type": "MCQ",
+            "question": "Which author created the fictional character Sherlock Holmes?",
+            "options": ["Agatha Christie", "J.K. Rowling", "Arthur Conan Doyle", "Charles Dickens"],
+            "answer": "Arthur Conan Doyle"
+          },
+          {
+            "type": "TEXT",
+            "question": "In George Orwell's '1984,' what is the name of the totalitarian regime?",
+            "answer": "Big Brother"
+          },
+          {
+            "type": "MCQ",
+            "question": "What is the name of Tolkien's second book in 'The Lord of the Rings' series?",
+            "options": ["The Fellowship of the Ring", "The Hobbit", "The Two Towers", "The Return of the King"],
+            "answer": "The Two Towers"
+          },
+          {
+            "type": "TEXT",
+            "question": "Who is the author of 'The Great Gatsby'?",
+            "answer": "F. Scott Fitzgerald"
+          },
+          {
+            "type": "MCQ",
+            "question": "Who wrote the poem 'The Raven'?",
+            "options": ["Emily Dickinson", "Edgar Allan Poe", "Robert Frost", "Walt Whitman"],
+            "answer": "Edgar Allan Poe"
+          },
+          {
+            "type": "TEXT",
+            "question": "Which novel features the character Holden Caulfield?",
+            "answer": "The Catcher in the Rye"
+          }
+        ]
+      },
+      {
+        "category": "World History",
+        "image": "./Images/WorldHistory.jpg",
+        "questions": [
+          {
+            "type": "MCQ",
+            "question": "In what year did World War I begin?",
+            "options": ["1912", "1914", "1916", "1918"],
+            "answer": "1914"
+          },
+          {
+            "type": "TEXT",
+            "question": "Who was the leader of Nazi Germany during World War II?",
+            "answer": "Adolf Hitler"
+          },
+          {
+            "type": "MCQ",
+            "question": "Which ancient civilization built the Machu Picchu?",
+            "options": ["Maya", "Inca", "Aztec", "Egyptian"],
+            "answer": "Inca"
+          },
+          {
+            "type": "TEXT",
+            "question": "Which city was split into four sectors by the Allies after World War II?",
+            "answer": "Berlin"
+          },
+          {
+            "type": "MCQ",
+            "question": "In which country did the Industrial Revolution begin?",
+            "options": ["France", "Germany", "United States", "United Kingdom"],
+            "answer": "United Kingdom"
+          },
+          {
+            "type": "TEXT",
+            "question": "Who was the first emperor of China?",
+            "answer": "Qin Shi Huang"
+          },
+          {
+            "type": "MCQ",
+            "question": "Which empire was ruled by Genghis Khan?",
+            "options": ["Roman Empire", "Ottoman Empire", "Mongol Empire", "British Empire"],
+            "answer": "Mongol Empire"
+          },
+          {
+            "type": "TEXT",
+            "question": "Which war is known as the Great War?",
+            "answer": "World War I"
+          },
+          {
+            "type": "MCQ",
+            "question": "What was the capital of the Byzantine Empire?",
+            "options": ["Athens", "Constantinople", "Rome", "Carthage"],
+            "answer": "Constantinople"
+          },
+          {
+            "type": "NUMBER",
+            "question": "In which year did the Berlin Wall fall?",
+            "answer": "1989"
+          }
+        ]
+      },
+      {
+        "category": "General Knowledge",
+        "image": "./Images/GeneralImg.jpg",
+        "questions": [
+          {
+            "type": "MCQ",
+            "question": "What is the capital of Japan?",
+            "options": ["Kyoto", "Tokyo", "Osaka", "Hiroshima"],
+            "answer": "Tokyo"
+          },
+          {
+            "type": "TEXT",
+            "question": "Who is known as the Iron Man of India?",
+            "answer": "Sardar Vallabhbhai Patel"
+          },
+          {
+            "type": "MCQ",
+            "question": "Which element is known by the symbol 'O'?",
+            "options": ["Osmium", "Oxygen", "Oganesson", "Olivium"],
+            "answer": "Oxygen"
+          },
+          {
+            "type": "TEXT",
+            "question": "Which instrument is used to measure temperature?",
+            "answer": "Thermometer"
+          },
+          {
+            "type": "MCQ",
+            "question": "Which planet is known as the Earth's twin?",
+            "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+            "answer": "Venus"
+          },
+          {
+            "type": "TEXT",
+            "question": "What is the chemical formula for common salt?",
+            "answer": "NaCl"
+          },
+          {
+            "type": "MCQ",
+            "question": "What is the largest bone in the human body?",
+            "options": ["Humerus", "Femur", "Tibia", "Fibula"],
+            "answer": "Femur"
+          },
+          {
+            "type": "TEXT",
+            "question": "Who invented the telephone?",
+            "answer": "Alexander Graham Bell"
+          },
+          {
+            "type": "MCQ",
+            "question": "Which is the smallest ocean in the world?",
+            "options": ["Atlantic", "Pacific", "Indian", "Arctic"],
+            "answer": "Arctic"
+          },
+          {
+            "type": "TEXT",
+            "question": "Which is the longest river in the world?",
+            "answer": "Nile"
+          }
+        ]
+      }
+    ]
+  }
+  
